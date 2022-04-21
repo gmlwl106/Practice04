@@ -30,5 +30,7 @@ public class Ex07 {
 				System.out.println(wonArray[i] + "원:0개"); //wonArray[i]보다 작으면 0개로 출력
 			}
 		}
+		
+		sc.close();
 	}
 }
