@@ -9,8 +9,9 @@ public class Ex08 {
 			lotto[i] = (int)(Math.random()*45)+1;
 			
 			for(int j=0; j<=i; j++) { //중복이 있는지 검사
-				if(lotto[i] == lotto[j]) {
+				while(lotto[i] == lotto[j]) {
 					lotto[j] = (int)(Math.random()*45)+1; //중복시 난수 재생성
+					break;
 				}
 			}
 			
